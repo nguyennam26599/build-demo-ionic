@@ -1,0 +1,91 @@
+<ion-app>
+  <ion-card>
+    <ion-card-header>
+      <ion-item>
+        <ion-label class="icon-header">
+          <ion-icon name="menu-outline" size="large"></ion-icon>
+          Google dịch
+        </ion-label>
+        <ion-card-title></ion-card-title>
+      </ion-item>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-row class="ion-row-button">
+    <ion-button expand="block" class="ion-button-text" fill="outline">
+      <ion-icon name="logo-alipay" size="large"></ion-icon>
+      Văn bản
+    </ion-button>
+    <ion-button expand="block" class="ion-button-doc" fill="outline">
+      <ion-icon name="document-outline" size="large"></ion-icon>
+      Tài liệu
+    </ion-button>
+  </ion-row>
+    
+  <ion-card class="text-content">
+    <!-- <ion-card-header>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header> -->
+    <ion-card-content>
+      <ion-card-subtitle>
+        <ion-row style="height: 30px;">
+          <ion-col size="5">
+            <ion-row>
+              <ion-col size="5" offset="0">PHÁT HIỆN NGÔN NGỮ</ion-col>
+              <ion-col size="2" offset="-0.5">VIỆT</ion-col>
+              <ion-col size="2" offset="-0.5">ANH</ion-col>
+              <ion-col size="2" offset="-0.5">PHÁP</ion-col>
+              <ion-col size="1" offset="-0.5">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col size="2" style="text-align: center;">
+            <ion-icon name="swap-horizontal-outline" class="swap-horizontal-outline"></ion-icon>
+          </ion-col>
+          <ion-col size="5">
+            <ion-row>
+              <ion-col size="2" offset="-1.5">ANH</ion-col>
+              <ion-col size="2" offset="-0.5">VIỆT</ion-col>
+              <ion-col size="2" offset="-0.5">PHÁP</ion-col>
+              <ion-col size="5" offset="-0.5">TRUNG(GIẢN THỂ)</ion-col>
+              <ion-col size="1" offset="-0.5">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-card-subtitle>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="col-left-header-text">
+            <ion-textarea rows="2" autoresize></ion-textarea>
+          </ion-col>
+          <ion-col>
+            <ion-textarea rows="2" placeholder="Bản dịch" readonly></ion-textarea
+          ></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="6">
+            <ion-row>
+              <ion-col size="1">
+                <ion-icon name="volume-medium-sharp" class="volume-medium-sharp"></ion-icon>
+              </ion-col>
+              <ion-col size="8">
+                
+              </ion-col>
+              <ion-col size="2">
+                0/5000
+              </ion-col>
+              <ion-col size="1">
+                <ion-icon name="musical-note-sharp"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col size="6">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-app>

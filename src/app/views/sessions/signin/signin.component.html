@@ -1,0 +1,27 @@
+<ion-card>
+  <ion-card-header>
+    <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+    <!-- <ion-card-title>Signin</ion-card-title> -->
+  </ion-card-header>
+
+  <ion-card-content>
+    <form [formGroup]="loginForm" >
+      <ion-item lines="full">
+        <ion-label position="floating">Tài khoản</ion-label>
+        <ion-input type="text"  formControlName="username"></ion-input>
+      </ion-item>
+  
+      <ion-item lines="full">
+        <ion-label position="floating">Mật khẩu</ion-label>
+        <ion-input type="password"  formControlName="password"></ion-input>
+      </ion-item>
+  
+      <ion-item lines="full">
+        <ion-checkbox Capacitor  color="secondary" formControlName="savePass"></ion-checkbox>
+        <ion-label>Lưu mật khẩu</ion-label>
+      </ion-item>
+
+      <ion-button type="submit" color="primary" expand="block" (click)="saveUser()" >Đăng nhập</ion-button>       
+    </form>
+  </ion-card-content>
+</ion-card>
